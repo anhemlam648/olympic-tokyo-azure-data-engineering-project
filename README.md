@@ -4,6 +4,6 @@
 
 In this project, we will use the Tokyo Olympic 2021 Datasets from [Kaggle](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
 
-And then extract and Ingest the data into Azure Data Factory using **HTTP** protocol and Sink it into Azure Data Lake Storage Gen 2.
+We use Azure Data Factory to extract this data and then load this data onto the Data Lake Storage Gen 2.
 
-Finally, we use Azure Databricks to do some simple transformations and load the transformed data back into Azure Data Lake again.
+Finally, we use Azure Databricks to do some simple transformations, print schema, understanding the Apache Spark core and load the transformed data back into Azure Data Lake again.
