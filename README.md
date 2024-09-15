@@ -4,6 +4,9 @@
 
 In this project, we will use the Tokyo Olympic 2021 Datasets from [Kaggle](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
 
+![Resource Group](https://github.com/user-attachments/assets/6203bce4-4969-418b-89f3-9d80a47523e1)
+
+
 We use Azure Data Factory to extract this data and then load this data onto the Data Lake Storage Gen 2.
 
 Finally, we use Azure Databricks to do some simple transformations, print schema, understanding the Apache Spark core and load the transformed data back into Azure Data Lake again.
